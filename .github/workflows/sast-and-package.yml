@@ -36,7 +36,7 @@ jobs:
         languages: Java   
     
   Packaging:
-    needs: codeql
+    needs: CodeQL
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
